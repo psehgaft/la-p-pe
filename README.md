@@ -40,7 +40,7 @@ Sistema de gestión de productos desarrollado en **.NET Framework 4.5** con arqu
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/frankjunker87-arch/la-p-pe.git
+   git clone https://github.com/psehgaft/la-p-pe.git
    ```
 2. Abre `LaPape.sln` en Visual Studio (2015 o superior).
 3. Restaura los paquetes NuGet (`packages.config` en `CapaDatos`; también hay una copia local en `packages/`).
@@ -57,9 +57,7 @@ Proyecto en desarrollo: varias operaciones del servicio (`Eliminar*` y búsqueda
 2. Crea una rama (`git checkout -b mejora/nombre-del-cambio`).
 3. Haz tus cambios y crea el commit **con coautores**, siguiendo [la guía de GitHub](https://docs.github.com/es/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors):
    ```bash
-   git commit -m "Descripción del cambio.
-
-   Co-authored-by: Nombre <correo@ejemplo.com>"
+   git commit -m "Descripción del cambio.\n\n   Co-authored-by: Nombre <correo@ejemplo.com>"
    ```
    Usa el correo asociado a la cuenta de GitHub de cada coautor (o su correo `no-reply` si lo mantiene privado).
 4. Haz push a tu fork y abre un Pull Request.
@@ -68,7 +66,9 @@ Proyecto en desarrollo: varias operaciones del servicio (`Eliminar*` y búsqueda
 
 Este proyecto está bajo la licencia **GNU General Public License v3.0**. Ver [LICENSE](LICENSE).
 
-## 👥 Autores
+## 👥 Autores y colaboradores
 
 - [@psehgaft](https://github.com/psehgaft)
 - [@frankjunker87-arch](https://github.com/frankjunker87-arch)
+- [@san985tos](https://github.com/san985tos)
+- [@tec-girl](https://github.com/tec-girl) / [@keysikunz](https://github.com/keysikunz)
